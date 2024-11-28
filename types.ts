@@ -17,7 +17,7 @@ export interface IProduct {
   price: string;
   isFeatured: boolean;
   size: ISize;
-  color: IColor[];
+  color: IColor;
   images: IImage[];
 }
 
