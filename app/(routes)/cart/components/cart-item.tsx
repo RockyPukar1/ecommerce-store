@@ -37,7 +37,9 @@ export default function CartItem({ data }: ICartItemProps) {
         </div>
         <div className="relative pr-9 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:pr-0">
           <p className="flex justify-between">
-            <div className="text-lg font-semibold text-black">{data.name}</div>
+            <span className="text-lg font-semibold text-black">
+              {data.name}
+            </span>
           </p>
         </div>
         <div className="mt-1 flex text-sm">
